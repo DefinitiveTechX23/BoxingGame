@@ -5,8 +5,12 @@ let player1 = {
 
     health: 100, };
 
+let player2 = {
 
+name: "Player2",
 
+health: 100,
+}
 
 let currentPlayer = player1; 
 
@@ -75,9 +79,9 @@ function switchTurns() {
     }
     console.log("Game Over. Thanks for playing!");
     }
+    
     // Start the game
     startGame();
     
 
-    //output code
-    console.log(boxing.js);
+    
